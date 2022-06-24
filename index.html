@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class = "body">
+    <br>
+    <h1 class = title id = "title">Welcome to the Keyboard Quarter-Mile!</h1>
+    <br>
+    <div class = "instructions">To move the red car, alternate keys <b class = "a">a</b> and <b class = "s">s</b></div>
+    <div class = "instructions">To move the blue car, alternate keys <b class = "j">j</b> and <b class = "k">k</b></div>
+    <br>
+    <canvas class = "canvas" id = "canvas" height = "80", width = "500"></canvas>
+    <br><br>
+    <div class = "numbers", id = "numbers"></div>
+    <br>
+    <div class = "winner" id = "winner"></div>
+    <button class = "btn" id = "btn">Start</button>
+
+    <div style = "display: none">
+        <img src="Blue_car.png" alt="" width = "90" height = "90"  id = "Bluecar">
+        <img src="Red_car.png" alt="" width = "90" height = "90" id = "Redcar">
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
